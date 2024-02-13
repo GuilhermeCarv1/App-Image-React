@@ -65,6 +65,7 @@ h1 {
    }
    
    .icon {
+    top: 32%;
     position: absolute;
     left: 1rem;
     fill: #000000;
@@ -72,8 +73,19 @@ h1 {
     height: 1rem;
     
    }
+ 
    
+  .image-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
    
+ .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
    
    
    
